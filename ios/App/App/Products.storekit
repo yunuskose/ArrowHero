@@ -1,0 +1,136 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "tr_TR",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "ARROWHERO-STOREKIT-CFG",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "30.00",
+      "familyShareable" : false,
+      "internalID" : "GEMS100INT",
+      "localizations" : [
+        {
+          "description" : "Başlangıç paketi - 100 elmas yükle, oyunu hızlandır",
+          "displayName" : "100 Elmas",
+          "locale" : "tr_TR"
+        },
+        {
+          "description" : "Starter pack - 100 gems",
+          "displayName" : "100 Gems",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "gems_100",
+      "referenceName" : "100 Elmas",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "100.00",
+      "familyShareable" : false,
+      "internalID" : "GEMS500INT",
+      "localizations" : [
+        {
+          "description" : "En popüler paket - 500 + 50 bonus = 550 elmas",
+          "displayName" : "550 Elmas (En Popüler)",
+          "locale" : "tr_TR"
+        },
+        {
+          "description" : "Most popular - 500 + 50 bonus = 550 gems",
+          "displayName" : "550 Gems (Most Popular)",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "gems_500",
+      "referenceName" : "550 Elmas",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "250.00",
+      "familyShareable" : false,
+      "internalID" : "GEMS1500INT",
+      "localizations" : [
+        {
+          "description" : "En iyi değer - 1500 + 200 bonus = 1700 elmas",
+          "displayName" : "1700 Elmas (En İyi Değer)",
+          "locale" : "tr_TR"
+        },
+        {
+          "description" : "Best value - 1500 + 200 bonus = 1700 gems",
+          "displayName" : "1700 Gems (Best Value)",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "gems_1500",
+      "referenceName" : "1700 Elmas",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "tr_TR",
+    "_storefront" : "TUR",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

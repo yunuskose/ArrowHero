@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Arrow Hero</string>
+    <string name="title_activity_main">Arrow Hero</string>
+    <string name="package_name">com.ykyazilim.arrowhero</string>
+    <string name="custom_url_scheme">com.ykyazilim.arrowhero</string>
+</resources>

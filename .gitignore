@@ -1,0 +1,51 @@
+# ============ GİZLİ DOSYALAR — ASLA COMMIT'LENMEMELİ ============
+# Android imzalama anahtarı
+*.jks
+*.keystore
+# Apple anahtarları (App Store Connect / abonelik / push)
+*.p8
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+# Ortam değişkenleri / sırlar
+.env
+.env.*
+!*.env.SAMPLE
+secrets*.json
+google-services.json
+GoogleService-Info.plist
+
+# ============ Bağımlılıklar ============
+node_modules/
+
+# ============ iOS build çıktıları ============
+ios/App/build/
+ios/App/build-sim/
+ios/App/Pods/
+ios/App/DerivedData/
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# ============ Android build çıktıları ============
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
+android/local.properties
+.gradle/
+*.iml
+
+# ============ macOS / editör ============
+.DS_Store
+*.log
+
+# ============ Yerel elle alınan yedekler (git artık geçmişi tutuyor) ============
+www/index.html.bak-*
+
+# ============ Araç/skill artefaktları ============
+docs/superpowers/
+
+# ============ İç kurulum dokümanı (Issuer ID vb. hesap kimlikleri içerir) ============
+docs/IAP_SETUP.md
